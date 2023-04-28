@@ -15,7 +15,7 @@ Employee.prototype=Object.create(Person,prototype);
 Employee.prototype.constructor=Employee;
 
 Employee.prototype.jobGreet=function () {
-	console.log('Hello, my name is Bob, I am 97 years old, and my job title is Manager.')
+	console.log('Hello, my name is Bob, I am 97 years old, and my job title is Manager.');
 }
 // Do not change code below this line
 window.Person = Person;
